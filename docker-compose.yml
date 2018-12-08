@@ -6,4 +6,4 @@ services:
     volumes:
       - .:/go/src/
     working_dir: /go/src
-    command: ["go", "test"]
+    command: ["go", "test", "-v", "-cover"]
