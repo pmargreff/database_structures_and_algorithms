@@ -1,6 +1,3 @@
 package main
 
-import "fmt"
-func main() {
-  fmt.Println("Hello Structures!!")
-}
+const NOT_FOUND int = -1

@@ -1,10 +1,8 @@
 package main
 
-const NOT_FOUND int = -1
-
-func SeqScan(array []int, find int) int {
+func SeqScan(array []int, target int) int {
   for index, element := range array {
-    if element == find {
+    if element == target {
       return index
     }
   }
